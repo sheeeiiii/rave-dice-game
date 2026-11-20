@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rave Dice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Title and names -->
+  <header>
+    <h1>Rave Dice</h1>
+    <p class="names">By Sheila Daghouti Jaatit and Kevin Jabro</p>
+  </header>
+
+  <main>
+
+    <!-- About the project -->
+    <section class="box">
+      <h2>About the project</h2>
+      <p>
+        Rave Dice is a game where you roll physical dice. Each dice has a
+        micro:bit inside it. When you roll, the same number that the die
+        shows also appears on the computer screen, with sounds and colours
+        inspired by a rave.
+      </p>
+      <p>
+        The first player to reach 30 points wins. After each roll you can
+        choose to "stay and bank" your points, or keep rolling and take a
+        chance. But be careful: if you roll a 1, you go bust and lose your
+        points for that round!
+      </p>
+    </section>
+
+    <!-- About us -->
+    <section class="box">
+      <h2>About us</h2>
+      <p>
+        We are Sheila Daghouti Jaatit and Kevin Jabro. We are students at
+        Södertörn University, studying the IMD programme. We enjoy being
+        creative and trying out new things.
+      </p>
+    </section>
+
+    <!-- Video of the project -->
+    <section class="box">
+      <h2>Video</h2>
+      <!-- "controls" so the user press play and can change the volume -->
+      <video controls>
+        <source src="rave.dice.mov" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="warning">
+        Warning: this video contains flashing lights and loud sounds.
+        Please be careful if you are sensitive to bright or flashing light.
+      </p>
+    </section>
+
+    <!-- Photo gallery -->
+    <section class="box">
+      <h2>Photo gallery</h2>
+      <div class="gallery">
+        <img src="pic1.jpg" alt="Photo of the two dices and the computer">
+        <img src="pic2.jpg" alt="Photo of someone throwing the dice">
+        <img src="pic3.jpg" alt="Photo of Sheila and Kevin from up">
+        <img src="pic4.jpg" alt="Photo of someone holding a dice">
+        <img src="pic5.jpg" alt="Photo of someone throwing a dice">
+        <img src="pic6.jpeg"alt="Photo of the two dices on the table">
+      </div>
+    </section>
+
+  </main>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@8.6.6/dist/pixi.min.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
